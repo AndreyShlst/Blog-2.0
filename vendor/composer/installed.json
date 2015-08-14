@@ -1,0 +1,102 @@
+[
+    {
+        "name": "4nd/smarty",
+        "version": "v3.1.18",
+        "version_normalized": "3.1.18.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/4nd/Smarty.git",
+            "reference": "c5682f1dafbc442913ca946114a051eed372c1b5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/4nd/Smarty/zipball/c5682f1dafbc442913ca946114a051eed372c1b5",
+            "reference": "c5682f1dafbc442913ca946114a051eed372c1b5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2014-04-07 21:22:04",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "distribution/libs/Smarty.class.php",
+                "distribution/libs/SmartyBC.class.php",
+                "distribution/libs/sysplugins/smarty_security.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Monte Ohrt",
+                "email": "monte@ohrt.com"
+            },
+            {
+                "name": "Uwe Tews",
+                "email": "uwe.tews@googlemail.com"
+            },
+            {
+                "name": "Rodney Rehm",
+                "email": "rodney.rehm@medialize.de"
+            }
+        ],
+        "description": "Smarty - the compiling PHP template engine",
+        "homepage": "http://www.smarty.net",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "adodb/adodb-php",
+        "version": "v5.19",
+        "version_normalized": "5.19.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ADOdb/ADOdb.git",
+            "reference": "773bb9b7ccd81b403bf75f7ef476c3f2d7ee04de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ADOdb/ADOdb/zipball/773bb9b7ccd81b403bf75f7ef476c3f2d7ee04de",
+            "reference": "773bb9b7ccd81b403bf75f7ef476c3f2d7ee04de",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2014-04-23 14:37:03",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "adodb.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1",
+            " BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "John Lim",
+                "email": "jlim@natsoft.com",
+                "role": "Author"
+            },
+            {
+                "name": "Damien Regad",
+                "role": "Current maintainer"
+            }
+        ],
+        "description": "ADOdb is a PHP database abstraction layer library",
+        "homepage": "http://adodb.sourceforge.net/",
+        "keywords": [
+            "database"
+        ]
+    }
+]
